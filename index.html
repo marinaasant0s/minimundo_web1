@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+ <link rel="icon" type="image/x-icon" href="./img/icon.png"> <!--favicon-->
+
+    <title>Conservatório Lamorim</title>
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+       $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+         
+       });
+    </script>
+
+</head>
+
+<body>
+ <!--add slider-->
+    <div id="header"></div>
+
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1><strong>Olá, seja bem-vindo</strong></h1>
+            <p>Conservatório é um estabelecimento dedicado ao ensino da música, canto e matérias relacionadas. O primeiro conservatório foi fundado em 1537 em Nápoles pelo padre espanhol José Tapia; chamado Santa Maria de Loreto e tinha por objetivo dar instrução às crianças órfãs, incluindo também a prática da música.</p>
+            <!--até aqui funciona de boa como quero!-->
+        </div>
+    </div>
+
+    <!-- inicio slides-->
+
+    <div class="slider" id="radio">
+        <ul>
+            <li>
+                  <input class="radio" type="radio" id="slide1" name="slide" checked>
+                  <label for="slide1"></label>
+                  <img src="./img/img1.jpg"/>
+            </li>
+            <li>
+                  <input class="radio" type="radio" id="slide2" name="slide" >
+                  <label for="slide2"></label>
+                  <img src="./img/img2.jpg"/>
+            </li>
+            <li>
+                  <input class="radio" type="radio" id="slide3" name="slide" >
+                  <label for="slide3"></label>
+                  <img src="./img/img3.jpeg"/>
+            </li>
+            
+        </ul>
+    </div>
+        <!--fim do slide-->
+    </div>
+
+
+<div id="footer"></div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+ <link rel="icon" type="image/x-icon" href="./img/icon.png"> <!--favicon-->
+
+    <title>Matrícula</title>
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+       $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");          
+       });
+    </script>
+
+</head>
+
+<body>  
+    <div id="header"></div>
+
+    <!-- Início formulário -->
+    <forms>
+        <div class="forms">
+                <label for="nome"><strong>Nome completo:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            
+                <label for=""><strong>CPF:</strong></label>
+                <input id="cpf" type="cpf" placeholder="xxx.xxx.xxx-xx" autocomplete="off" maxlength="12">
+            
+                <label for=" "><strong>Idade:</strong> </label>
+                <input type="number" name="idade" min="5" max="120" ><br>
+             
+                 <label for="email"><strong>Email:</strong></label>
+                 <input type="email" placeholder="voce@exemplo.com" name="email" id="email" required>
+
+                <label for=""><strong>Senha:</strong></label>
+                <input id="password" type="password"  placeholder="Senha">
+
+                <label for="sexo"><strong>Selecione seu gênero: </strong></label>
+                <label>
+                    <input type="radio" id="" name="sexo" value="feminino" > Feminino
+                </label>
+                <label>
+                    <input type="radio" id="" name="sexo" value="masculino" > Masculino
+                </label>
+                <label>
+                    <input type="radio" id="" name="sexo" value="masculino" > Não-binário
+                </label>
+                
+            
+            
+                <label for="foto"><strong>Anexar arquivos: </strong></label>
+                <input type="file" value="selecionar arquivo" >
+
+                <label for="curso"><strong>Qual curso escolhido:</strong></label>
+                <select name=" " id="" >
+
+                    <option value="Violino">Violino</option>
+                    <option value="Canto">Canto</option>
+                    <option value="Musicalização">Musicalização Infantil</option>
+                    <option value="Piano">Piano</option>
+                    <option value="FLAUTA">Flauta tranversal</option>
+                    <option value="Saxofone">Saxofone</option>
+                    <option value="Guitarra">Guitarra</option>
+                    <option value="Baixo">Baixo</option>
+                    <option value="Sopro">Sopro</option>
+                    <option value="Percussão">Percussão</option>
+
+
+                </select>
+        </div> 
+
+            <button class="botao" type="submit" onsubmit="">Concluir matrícula</button> 
+            <button class="botao" type="reset" onsubmit="">Cancelar</button>
+    </forms>
+            <!-- Fim formulário-->        
+<div id="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/sliderinicio.css">
+
+
+ <link rel="icon" type="image/x-icon" href="./img/icon.png"> <!--favicon-->
+
+    <title>Inicio</title>
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+       $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html"); 
+       });
+    </script>
+
+</head>
+<body>
+    <header>
+
+    <div id="header"></div>
+
+    <div class="col-100">
+        <div class="texto-dest">
+            <h1><strong>Lamorim</strong></h1>
+            <p>O Conservatório de Lamorim é um conservatório de música localizado em Nápoles, no sul da Itália, atualmente nos domínios do complexo da igreja de San Pietro a Maiella.
+            O conservatório e a igreja adjacente atualmente fazem parte dum complexo monástico, construído no fim do século XIII e dedicado ao monge Pietro da Morone, que se tornou Papa Celestino V em 1294. O conservatório abriga uma grande biblioteca de manuscritos relacionados às vidas e produções musicais de compositores que viveram e trabalharam em Nápoles, incluindo Alessandro Scarlatti, Pergolesi, Domenico Cimarosa, Rossini, Bellini e Donizetti. O museu histórico apresenta instrumentos musicais antigos raros.<br><br>
+            A Escola de Música Lamorim desde o seu surgimento, tem como missão e anseio formar o músico da nossa região, oferecendo o que há de melhor na música, seja ela clássica ou popular. Queremos que os músicos que passam por aqui, tenham todo o conhecimento prático e teórico afim de atingir o máximo do seu potencial. Por isso o  Instituto de Música INFOMUC dá a você que deseja estudar música, uma vasta gama de cursos de música, com professores especializados e habilitados para acompanhar seu desenvolvimento. Acreditamos que é possível que você mesmo sem saber nada sobre o instrumento desejado, se torne um músico competente, completo e que domine de forma profissional seu respectivo instrumento.
+            </p>
+        </div>
+    </div>
+ 
+    <!-- inicio slides-->
+
+    <div class="slider" id="radio">
+        <ul>
+            <li>
+                  <input class="radio" type="radio" id="slide1" name="slide" checked>
+                  <label for="slide1"></label>
+                  <img src="./img/ini1.jpg"/>
+            </li>
+            <li>
+                  <input class="radio" type="radio" id="slide2" name="slide" >
+                  <label for="slide2"></label>
+                  <img src="./img/ini2.jfif"/>
+            </li>
+            <li>
+                  <input class="radio" type="radio" id="slide3" name="slide" >
+                  <label for="slide3"></label>
+                  <img src="./img/ini3.jfif"/>
+            </li>
+
+        </ul>
+    </div>
+        <!--fim do slide-->
+
+    
+        <div class="mapa">
+            <h1>Endereço Conservatório Lamorim</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.510025484043!2d-34.8915799852202!3d-8.049341994204097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18eea0fde521%3A0x95ae1cb013c367f6!2sConservatorio%20Pernambucano%20De%20Musica!5e0!3m2!1spt-BR!2sbr!4v1643042543833!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+
+
+
+    </header>
+
+<div id="footer"></div>
+</body>
+</html>

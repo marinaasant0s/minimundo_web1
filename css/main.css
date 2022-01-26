@@ -1,0 +1,273 @@
+
+/*geral*/
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: auto;
+    }
+
+    ul {
+    margin-top: auto;
+    padding: 10px; 
+    }
+
+    .principal {
+    width: 100%;
+    margin-top: auto;
+    background-color: #F9B299;
+    height: 90px;
+    }
+
+    .content {
+    margin: 0 auto;
+    width: 780px;
+    position: relative;
+    }   
+
+    .logotipo {
+    padding: 8px;
+    width: 80%;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .icone-redes ul li {
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    }
+
+    .icone-redes {
+    width: 99%;
+    float: right;
+    }
+
+    .h2 {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    }
+
+    .menu {
+    width: 95%;
+    float: left;
+    }
+
+    .menu-urls {
+    height: 100px;
+    border-bottom: 2px solid #000000;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        color: #F9B299;
+        margin-left: 70px;
+        height: 10px;
+    }
+
+    .menu ul li:hover {
+        border-bottom: 3px solid #F9B299;
+    }
+
+    
+    .menu ul li a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .col-100 {
+    width: 100%;
+    float: left;
+    position: inherit;
+    }
+
+
+    .texto-destaque {
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .texto-destaque strong {
+    color: #000000;
+    }
+
+    .texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000000;
+    }
+
+    .texto-destaque p {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .texto-dest{
+        font-size: 16px;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .col-3 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px; 
+    width: 50%;
+    float: left;
+    position: relative;
+    } /*até aqui funciona ok o geral*/
+
+    
+   /*add slides da página*/
+.slider {
+    color: #000000;
+    display: block;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 600px;
+    position: relative;
+}
+
+
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #ffffff;
+    bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 70px;
+}
+.slider li:nth-child(5) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+
+.music {
+    margin-top: 400px;
+}
+
+.orquest{
+    margin-top: 400px;
+}
+
+.sinfo{
+    margin-top: 400px;
+}
+
+/*fim do estilo página*/
+
+/*formulário matrícula*/
+.forms{
+    margin-top: 350px;
+    padding: 30px;
+    background:#F9B299;
+}
+
+label{
+    display: inline-block;
+    width: 75px;
+    margin: 2px;
+}
+/*finalizando forms*/
+
+/*iniciando página de login*/
+.conteiner{
+    background-color: #F9B299;
+    width: 50%;
+    max-width: 600px;
+    padding: 90px;
+    margin: 20px auto 0 auto;
+    border-radius: 90px;
+    margin-top: 350px;
+ }
+
+ .titulo{
+    color: #000000;
+    font-family: Cambria;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.input{
+    padding: 15px;
+    margin-left: 150px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.button{
+    background-color:#F9B299;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    
+}
+.button:hover{
+    cursor: auto;
+}
+/*finalizando login*/
+
+
+
+/*posição mapa*/
+
+.mapa{
+    margin-top: 45px;
+}
+  
